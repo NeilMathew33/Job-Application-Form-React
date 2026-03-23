@@ -1,13 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import JobApplication from './container/JobApplication';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ViewAllApplications from './components/JobApplication';
+import SearchApplication from './components/SearchApplication';
+import DeleteApplication from './components/DeleteApplication';
+import JobApplication from './components/JobApplication';
 
 function App() {
   return (
-    <div >
-     <JobApplication>
-     </JobApplication>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<JobApplication />} />
+      <Route path="/view-applications" element={<ViewAllApplications />} />
+      <Route path="/search-application" element={<SearchApplication />} />
+      <Route path="/delete-application" element={<DeleteApplication />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
