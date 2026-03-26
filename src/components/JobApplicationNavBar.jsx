@@ -3,7 +3,6 @@ import React from 'react'
 const JobApplicationNavBar = () => {
   return (
     <div>
-        <JobApplicationNavBar />
         <nav class="navbar navbar-expand-lg bg-success">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Student App</a>
@@ -13,9 +12,9 @@ const JobApplicationNavBar = () => {
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="/">Add Applicant</a>
-        <a class="nav-link" href="/search">Search Applicant</a>
-        <a class="nav-link" href="/delete">Delete Applicant</a>
-        <a class="nav-link" href="/ViewAll">View all applicants</a>
+        <a class="nav-link" href="/search-application">Search Applicant</a>
+        <a class="nav-link" href="/delete-application">Delete Applicant</a>
+        <a class="nav-link" href="/view-applications">View all applicants</a>
       </div>
     </div>
   </div>
