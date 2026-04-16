@@ -11,7 +11,7 @@ const JobApplicationNavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="/">Add Applicant</a>
+        <a class="nav-link active" aria-current="page" href="/Add">Add Applicant</a>
         <a class="nav-link" href="/search-application">Search Applicant</a>
         <a class="nav-link" href="/delete-application">Delete Applicant</a>
         <a class="nav-link" href="/view-applications">View all applicants</a>
