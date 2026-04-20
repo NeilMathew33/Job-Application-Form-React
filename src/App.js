@@ -6,6 +6,7 @@ import DeleteApplication from './components/DeleteApplication';
 import JobApplication from './components/JobApplication';
 import ViewAllApplications from './components/ViewAllApplications';
 import Login from './components/Login';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/search-application" element={<SearchApplication />} />
       <Route path="/delete-application" element={<DeleteApplication />} />
       <Route path="/" element={<Login />} />
+      <Route path="/SignUp" element={<SignUp />} />
     </Routes>
     </BrowserRouter>
     
